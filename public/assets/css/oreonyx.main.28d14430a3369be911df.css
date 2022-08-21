@@ -1,0 +1,40 @@
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./view/assets/css/Counter.module.css ***!
+  \******************************************************************************************************************/
+.Counter-module__main--aLE2DBO9tJYvDNbSuDng4cQUJRGXCE__mechanix {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+}
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./view/js/components/eshop/eshop.css ***!
+  \******************************************************************************************************************/
+.eshop_style {
+    color: orange;
+}
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./view/js/components/users/user.css ***!
+  \*****************************************************************************************************************/
+.user {
+    color: red;
+}
+/*!*********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./view/js/components/404/404.module.css ***!
+  \*********************************************************************************************************************/
+._404-module___404--vjP76RDMlU66OBpHS0EQUATfZr9UHv__mechanix{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*!***************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./view/js/components/signup/Signup.module.css ***!
+  \***************************************************************************************************************************/
+.Signup-module__form--IQJg33wTadU8axzcRdki_QJlZTNMFy__mechanix {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
