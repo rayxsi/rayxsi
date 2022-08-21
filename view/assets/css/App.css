@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'pluto';
+    src: url(../fonts/pxxxpx003847.ttf);
+}
+
+body {
+    box-sizing: border-box;
+    padding:  0;
+    margin:  0;
+    background-color: #ffffff;
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+}

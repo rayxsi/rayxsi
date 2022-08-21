@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'pluto';
+  src: url(../fonts/pxxxpx003847.ttf);
+}
+
+$primary: #ffffff;
+
+body {
+  background-color: darken($primary, 10%);
+  font-family: 'pluto', sans-serif;
+}
+
