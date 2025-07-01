@@ -16,20 +16,12 @@
     }
   },
   "require": {
-    "rayxsi/framework": "dev-main",
+    "rayxsi/framework": "^1.0",
     "symfony/var-dumper": "^6.1",
     "ext-pdo": "*",
     "symfony/error-handler": "^7.1"
   },
-  "repositories": [
-    {
-      "type": "path",
-      "url": "/home/tupo/Space/uioreonnyx/rayxsi/framework",
-      "options": {
-        "symlink": true
-      }
-    }
-  ],
+  
   "minimum-stability": "dev",
   "prefer-stable": true
 }
