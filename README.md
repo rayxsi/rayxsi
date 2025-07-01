@@ -1,4 +1,4 @@
-# rayxsi
+# Rayxsi
 
 **About Rayxsi**
 
