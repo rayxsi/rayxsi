@@ -1,13 +1,13 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../assets/css/App.css'
 import React from 'react';
-import  'bootstrap/dist/css/bootstrap.min.css';
-import styles from '../../assets/css/Counter.module.css';
+import { Route, Routes } from 'react-router-dom';
+import Page404 from "./404";
 import Eshop from "./eshop";
-import Users from './users'
-import {Routes, Route} from 'react-router-dom'
 import Header from "./header";
 import Home from "./home";
-import Page404 from "./404";
 import SignUp from "./signup";
+import Users from './users';
 
 function App(props) {
 

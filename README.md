@@ -1,2 +1,2 @@
 # rayxsi
-Rayxsi framework
+This is the bluprint of **rayxsi** framework

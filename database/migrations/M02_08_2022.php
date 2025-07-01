@@ -2,21 +2,19 @@
 
 use Artificers\Database\Lizie\Schema\ColumnType;
 use Artificers\Database\Lizie\Schema\Table;
-use Artificers\Supports\Illusion\Schema;
+use Artificers\Support\Illusion\Schema;
 
 return new class {
     public function up(): void {
-        Schema::make("user", function(Table $table) {
-            $table->add([
-                $table->column("Id")->type(ColumnType::INT)->nullable()->autoIncrement()->unique(),
-                $table->column("FirstName")->type(ColumnType::VARCHAR)->width(350),
-                $table->column("Email")->type(ColumnType::VARCHAR)->width(550)->unique(),
-                $table->column("BookId")->type(ColumnType::INT)->foreignKey()->referenceTo("book", "Bid")
-            ]);
+        Schema::make("users", function(Table $table) {
+            $table->column("Id")->type(ColumnType::INT)->nullable()->autoIncrement()->unique();
+            $table->column("FirstName")->type(ColumnType::VARCHAR)->width(150);
+            $table->column("Email")->type(ColumnType::VARCHAR)->width(200)->unique();
+            $table->column("BookId")->type(ColumnType::INT)->foreignKey()->referenceTo("books", "Bid");
         });
     }
 
     public function down(): void {
-
+        Schema::dropTableIfExists('users');
     }
 };

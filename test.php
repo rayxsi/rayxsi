@@ -18,9 +18,9 @@ $stmt = $connection->prepare("INSERT INTO student(id, name, roll, city) VALUES(:
 //
 //echo $result;
 
-$name = "dhaka";
+//$t = ["id", "=", 10];
+//
+//if(preg_match("/(?<=\.)(\w+)/", $t[0], $matches)) var_dump($matches[1]);
+//else echo "nothing";
 
 
-var_dump(compact('name'));
-
-echo compact('name')["name"];

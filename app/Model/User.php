@@ -1,8 +1,14 @@
 <?php
+
 namespace RayxsiApp\Model;
 
-use Artificers\Database\Ritter\Model;
+use Artificers\Database\Raintter\Model;
 
 class User extends Model {
-    public string $tableName = "users";
+    public const TABLE_NAME = "users";
+    public const PRIMARY_KEY = "Id";
+
+    public function booksAndPosts() {
+        return $this->oneToOne([Books::class, Posts::class]);
+    }
 }

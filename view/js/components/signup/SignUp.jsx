@@ -13,15 +13,9 @@ function SignUp(props) {
     const submitData = async e => {
         e.preventDefault();
 
-        let data = {
-           firstname,
-            lastname,
-            email,
-            password,
-            confirmPassword
-        }
+        let data = {firstname, lastname, email, password, confirmPassword};
 
-       const response = await axios.post('http://localhost:5050/adduser', data);
+       const response = await axios.post('http://localhost:5050/add_user', JSON.stringify(data));
         if(response.status === 200) {
             setFirstname('');
             setLastname('');

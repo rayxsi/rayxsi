@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactDomServer from 'react-dom/server.node'
-import App from "./components/App";
-import  {StaticRouter} from "react-router-dom/server";
-import {Provider as ReduxProvider} from "react-redux";
+import ReactDomServer from 'react-dom/server.node';
+import { Provider as ReduxProvider } from "react-redux";
+import { StaticRouter } from "react-router-dom/server";
 import serialize from 'serialize-javascript';
-import store, {StartApiLoader} from "./redux";
+import App from "./components/App";
+import store, { StartApiLoader } from "./redux";
 
 
 /**

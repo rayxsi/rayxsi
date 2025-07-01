@@ -1,0 +1,14 @@
+.home-style {
+    background-color: transparent;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-style img {
+    width: 250px;
+    height: 150px;
+}
