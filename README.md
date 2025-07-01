@@ -12,6 +12,17 @@ Rayxsi gives you more flexibility to handle state management with redux. Rayxsi 
 
 By using Rayxsi you can build robust web application in faster and professional way.
 
+**How To Use**
+
+Run -> composer create-project rayxsi/rayxsi directory-name(your project directory)
+Next -> Go to the project directory(that you gived earlier) from terminal and run -> npm install
+Next -> Create .env file and copy the context of .env.exmaple file into .env file
+Next -> Go to the public folder from terminal and start the server by running -> php -S localhost:5050
+Next -> Go to the browser and search localhost:5050
+
+Voila!
+
+
 **Learning Rayxsi**
 
 Rayxsi is less self documented. That's why I've decided to build a documentation website on that. It will be comming soon.
