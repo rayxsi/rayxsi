@@ -1,6 +1,9 @@
 {
   "name": "rayxsi/rayxsi",
   "type": "project",
+  "description": "This is the bluprint of rayxsi framework",
+  "keywords": ["rayxsi", "framework"],
+  "license": "MIT",
   "authors": [
     {
       "name": "toerso",
