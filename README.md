@@ -14,15 +14,15 @@ By using Rayxsi you can build robust web application in faster and professional 
 
 **How To Use**
 
-Run -> composer create-project rayxsi/rayxsi directory-name(your project directory)
+Run -> `composer create-project rayxsi/rayxsi directory-name(your project directory)`
 
-Next -> Go to the project directory(that you gived earlier) from terminal and run -> npm install
+Next -> Go to the project directory(that you gived earlier) from terminal and run -> `npm install`
 
-Next -> Create .env file and copy the context of .env.exmaple file into .env file
+Next -> Create `.env` file and copy the context of `.env.exmaple` file into `.env` file
 
-Next -> Go to the public folder from terminal and start the server by running -> php -S localhost:5050
+Next -> Go to the `public` directory from terminal and start the server by running -> `php -S localhost:5050`
 
-Next -> Go to the browser and search localhost:5050
+Next -> Go to the browser and search `localhost:5050`
 
 Voila!
 
