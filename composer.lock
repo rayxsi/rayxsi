@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b8b7b993380e0df06523ee9bd0e8e34a",
+    "content-hash": "8439f3cbe6a108f5b35623efe060f832",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -401,11 +401,17 @@
         },
         {
             "name": "rayxsi/framework",
-            "version": "dev-main",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rayxsi/framework.git",
+                "reference": "a8068844d50083f044bafb4d763b0b56bb6eca57"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/tupo/Space/uioreonnyx/rayxsi/framework",
-                "reference": "46590e28e05af19c13d0102aced26398d40bcd37"
+                "type": "zip",
+                "url": "https://api.github.com/repos/rayxsi/framework/zipball/a8068844d50083f044bafb4d763b0b56bb6eca57",
+                "reference": "a8068844d50083f044bafb4d763b0b56bb6eca57",
+                "shasum": ""
             },
             "require": {
                 "monolog/monolog": "^3.2",
@@ -436,6 +442,7 @@
                     "Artificers\\": "src/Artificers"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -446,14 +453,16 @@
                 }
             ],
             "description": "The rayxsi framework",
+            "homepage": "https://github.com/rayxsi/framework",
             "keywords": [
                 "framework",
                 "rayxsi"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/rayxsi/framework/issues",
+                "source": "https://github.com/rayxsi/framework/tree/v1.0.0"
+            },
+            "time": "2025-07-01T12:24:33+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1364,9 +1373,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "rayxsi/framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
