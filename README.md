@@ -2,8 +2,7 @@
 
 **About Rayxsi**
 
-Rayxsi is a php web application framework. You can build large and scalable single and multipage website with Rayxsi.
-Rayxsi gives you more flexibility to handle state management with redux. Rayxsi also gives you flexibility to use most popular fron-end library reactjs. Rayxsi generates both the client-side and server-side rendering automatically. Beside that it has a lot of features, such as:
+Rayxsi is a PHP web application framework. You can build large and scalable single and multi page websites with Rayxsi. Rayxsi gives you more flexibility to handle state management with redux. Rayxsi also gives you flexibility to use most popular front-end library reactjs. Rayxsi generates both the client-side and server-side rendering automatically. Beside that it has a lot of features, such as:
 
 1. Simple and fast Routing system.
 2. Dependency injection container.
