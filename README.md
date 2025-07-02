@@ -36,4 +36,4 @@ The Rayxsi framework is open-sourced software licensed under the MIT license.
 
 **Inspiration**
 
-Rayxsi is built inspired from Laravel.
+Rayxsi is a PHP framework inspired by Laravel.
