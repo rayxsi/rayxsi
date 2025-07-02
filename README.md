@@ -15,7 +15,7 @@ By using Rayxsi you can build robust web application in faster and professional 
 
 Run -> `composer create-project rayxsi/rayxsi directory-name(your project directory)`
 
-Next -> Go to the project directory(that you gived earlier) from terminal and run -> `npm install`
+Next -> Go to the project directory(that you have given earlier) from terminal and run -> `npm install`
 
 Next -> Create `.env` file and copy the context of `.env.exmaple` file into `.env` file
 
